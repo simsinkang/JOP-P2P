@@ -1,0 +1,423 @@
+
+.card-footer{
+    background-color: #f4f5f9;
+}
+
+/**Main,jsx*/
+.Mainbody{
+    width: 100%;
+    background-color: #ffff;
+}
+button a{
+    color: #ffff;
+}
+button a:hover{
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+/**Jumbo,jsx*/
+.m1{
+    width: 100%;
+    height: 500px;
+    background-color:#0c151c;
+}
+.MainTexBox{
+    font-family:"NotoSans-Bold";
+    text-align: center;
+    padding-top:6%; 
+    width: 80%;
+    margin:auto;
+    color: #ffff;
+    letter-spacing: 1px;
+
+}
+.MainTexBox_1{
+ text-align: left;
+    float: left;
+}
+.MainTexBox_1 p{
+    margin: 2% 0;
+}
+
+.MainTex{
+    font-size: 1rem;
+    color: #1a85f0;
+    font-weight: bold;
+}
+.MainTex1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.MainTex2{
+    font-size: 1.5rem;
+}
+
+
+/**Introduce.jsx*/
+.m2{
+    width: 80%;
+    margin: 4% auto;
+}
+.Introduce-tilte{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/**predicate_view.jsx*/
+.m3{
+    margin: 5% 0;
+}
+.listingsMain{
+    width: 80%;
+    margin: auto;
+    
+}
+.listingsMain .listingsMainTitle
+{
+    width: 96%;
+    margin: auto;
+}
+.listingsMain .listingsMainTitle h1{
+ font-size: 2em;
+ font-weight: bold;
+}
+.listingsMain .listingsMainTitle p{
+    font-size: 1.2em;
+}
+.listingsMain .properties_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+}
+.listingsMain .properties_list li:nth-child(4n+0){
+    margin-right: 0;
+}
+.listingsMain ul.properties_list li{
+    display: block;
+    width: 22.90909090909091%;
+    height: auto;
+    position: relative;
+    margin: 2% 1%;
+}
+.PreviewMoreBox{
+    width: 80%;
+    clear: both;
+    margin: 5% auto;
+    text-align: center;
+}
+.PreviewMoreBox .more_listing_btn{
+    padding: 1.5em 3em
+}
+
+.more_listing_btn{
+    text-decoration: none;
+    padding: 1.5em 3em;
+    border: 2px solid #a0c3e5;
+    border-radius: 30px;
+    color: #a0c3e5;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    transition: all .2s linear;
+    background-color: #ffff;
+}
+
+.more_listing_btn:hover{
+    color: #a0c3e5;
+    border: 2px solid #a0c3e5;    
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ /**FooterInfo*/
+ .footerInfoBox{
+    font-family: "NotoSans-Bold";
+    border-top: 0.1px solid #cbced3;
+    margin: 0;
+    font-size: 1em;
+    background-color:#ffff;
+}
+.footerInfo{
+    text-align: center;
+}
+.footerInfo h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+.footerInfo p{
+    margin-top: 1%;
+    font-size: 1.3rem;
+} 
+
+
+
+@media (max-width:1500px) {
+
+}
+@media (max-width: 1024px){
+     /**IntoDuce**/
+     .m2{
+        width: 90%;
+    }
+
+    .m2 .Introduce-box{
+        margin-bottom: 5%;
+    }
+    /**PreView.jsx*/
+     .listingsMain{
+        width: 90%;
+        margin: auto;
+    }
+    .listingsMain .listingsMainTitle
+    {
+        width: 96%;
+        margin: 1% auto;
+    }
+    
+    .listingsMain .listingsMainTitle h1{
+         font-size: 1.5em;
+    }
+    .listingsMain ul.properties_list li{
+        display: block;
+        width: 46.90909090909091%;
+        height: auto;
+        position: relative;
+        float: left;
+        margin: 3% 2%;
+    }
+    .listingsMain .properties_list li:nth-child(2n+0){
+        margin-right: 0;
+    }    
+    .PreviewMoreBox{
+        width: 80%;
+        clear: both;
+        margin: 6% auto;
+        text-align: center;
+    }
+    .PreviewMoreBox .more_listing_btn{
+        padding: 1.5em 3em
+    }
+
+    /**FooterInfo*/
+    .footerInfoBox{
+        font-family: "NotoSans-Bold";
+        border-top: 0.1px solid #cbced3;
+        margin: 0;
+        font-size: 1em;
+        background-color:#ffff;
+    }
+    .footerInfo{
+        text-align: center;
+    }
+    .footerInfo h1{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .footerInfo p{
+        margin-top: 5%;
+        font-size: 1.2rem;
+    } 
+
+}   
+
+@media (min-width:700px) and (max-width:900px){
+  
+     /*Juombo.jsx**/
+     .MainTexBox{
+        padding-top:10%; 
+        width: 80%;
+        margin:auto;
+        color: #ffff;
+    }
+    .MainTexBox_1 p{
+        margin: 5% 0;
+    }
+    .MainTex{
+        font-size: 1rem;
+        color: #1a85f0;
+        
+    }
+    .MainTex1{
+        font-size: 1.6rem;
+        word-spacing: -1px;
+        font-weight: bold;
+        
+    }
+    .MainTex2{
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+
+     /**IntoDuce**/
+     .m2{
+        width: 90%;
+    }
+    .m2 .card-deck{
+        flex-flow:column !important;
+    }
+    .m2 .Introduce-box{
+        margin-bottom: 5%;
+    }
+
+    /**PreView.jsx*/
+     .listingsMain{
+        width: 90%;
+        margin: auto;
+    }
+    .listingsMain .listingsMainTitle
+    {
+        width: 96%;
+        margin: 1% auto;
+    }
+
+    .listingsMain .listingsMainTitle h1{
+         font-size: 1.5em;
+    }
+    .listingsMain ul.properties_list li{
+        display: block;
+        width: 46.90909090909091%;
+        height: auto;
+        position: relative;
+        float: left;
+        margin: 3% 2%;
+    }
+    .listingsMain .properties_list li:nth-child(2n+0){
+        margin-right: 0;
+    }    
+    .PreviewMoreBox{
+        width: 80%;
+        clear: both;
+        margin: 6% auto;
+        text-align: center;
+    }
+    .PreviewMoreBox .more_listing_btn{
+        padding: 1.5em 3em
+    }
+
+    /**FooterInfo*/
+    .footerInfoBox{
+        font-family: "NotoSans-Bold";
+        border-top: 0.1px solid #cbced3;
+        margin: 0;
+        font-size: 1em;
+        background-color:#ffff;
+    }
+    .footerInfo{
+        text-align: center;
+    }
+    .footerInfo h1{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .footerInfo p{
+        margin-top: 5%;
+        font-size: 1.2rem;
+    } 
+}
+
+
+@media (min-width:300px) and (max-width:500px) {
+
+    
+
+    /*Juombo.jsx**/
+    .MainTexBox{
+        padding-top:10%; 
+        width: 80%;
+        margin:auto;
+        color: #ffff;
+    }
+    .MainTexBox_1 p{
+        margin: 5% 0;
+    }
+    .MainTex{
+        font-size: 1rem;
+        color: #1a85f0;
+        
+    }
+    .MainTex1{
+        font-size: 1.6rem;
+        word-spacing: -1px;
+        font-weight: bold;
+        
+    }
+    .MainTex2{
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+    }
+    
+
+    /**PreView.jsx*/
+     .listingsMain{
+        width: 83%;
+        margin: auto;
+    }
+    .listingsMain .listingsMainTitle
+    {
+        width: 96%;
+        margin: 5% auto;
+    }
+
+    .listingsMain .listingsMainTitle h1{
+     font-size: 1.5em;
+    }
+
+    .listingsMain .properties_list{
+
+        padding: 0;
+    }
+    .listingsMain ul.properties_list li{
+        display: block;
+        float: none;
+        width: 96%;
+        height: 100%;
+        position: relative;
+        margin: 8% 2.5%;
+    }    
+    .PreviewMoreBox{
+        width: 80%;
+        clear: both;
+        margin: 12% auto;
+        text-align: center;
+    }
+    .PreviewMoreBox .more_listing_btn{
+        padding: 1.5em 3em
+    }
+
+
+    /**FooterInfo*/
+    .footerInfoBox{
+        font-family: "NotoSans-Bold";
+        font-size: 1em;
+        background-color:#ffff;
+    }
+
+    .footerInfo{
+        margin-top: 5%;
+        text-align: center;
+    }
+    .footerInfo h1{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .footerInfo p{
+        margin-top: 5%;
+        font-size: 1.2rem;
+    }
+
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,59 @@
+
+/**common**/
+.detail{
+    width: 80%;
+    margin: 3% auto;
+}
+.D_imfo{
+    width: 96%;
+    margin:4% auto;
+}
+
+.table-responsive{
+    border: 1px solid #dee2e6;
+}
+.D_imfoFont{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+
+/**title*/
+
+.title{
+    margin-bottom: 0;
+    margin-top: 2%;
+    padding-top:1.5em;
+    padding-bottom:1.5em; 
+    background-color: #fff;
+}
+.title h2{
+    font-weight: bold;
+}
+.title p{
+    margin-bottom: 1%;
+}
+
+.D_googleMap_tbody{
+    width: 30vh;
+    height: 100vh;
+    position: relative;
+}
+.D_googleMap{
+    width: 100%;
+    height: 40vh;
+}
+.ingeun ::before div {
+    position: relative;
+}
+.ingeun1{
+  font-size: 1.8em;
+}
+.ingeun2{
+    width: 30px;
+    height: 30px;
+}
+.footerConfom{
+    list-style-type: disc;
+    margin-left: 2%;
+}

@@ -1,0 +1,295 @@
+/**mypage*/
+.myPageBox{
+    width: 80%;
+    margin: auto;
+ 
+ }
+ .myPageBox_1{
+    width: 100%;
+    margin-top: 2%;
+ }
+ .myPageBox_1 h1{
+    margin: 1.5% 1.5% ;
+ }
+ 
+ .myPageBox2{
+    margin-top: 1%;
+ }
+ 
+ /**info */
+ .aa{
+    font-weight: bold;
+  
+}
+  
+.bb{
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+}
+
+/**info */
+.aa{
+    font-weight: bold;
+ }
+ .bb{
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+ }
+
+/**InUpdate*/
+.InfoUpdateBox{
+
+}
+ 
+ /**InUpdate*/
+ .InfoUpdateBox{
+ 
+ }
+.InfoUpdateBox_title{
+    width: 80%;
+    margin: 3% auto;
+    text-align: center
+}
+.InfoUpdateBox_title h1{
+    padding-bottom: 1%;
+    font-size: 2.4rem;
+}
+.InfoUpdateBox_title p{
+    font-size: 1.1rem;
+}
+.UpdateFrom{
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+ .UpdateFrom label {
+    padding: 1% 0 ;
+ }
+ 
+ .buttonBox{
+    text-align: center;
+ }
+ 
+ .buttonBox button{
+    margin: 0 0.5%;
+ }
+ 
+ 
+ .grey-text{
+    font-size: 1.1rem;
+ }
+ 
+ .line{
+    border: 2px solid rgb(221, 220, 221);
+ }
+ 
+ /**Drop*/
+.DropBox1{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.DropBox2{
+    color:red;
+    font-weight: bold;
+    margin: 1% 1.2%;
+}
+
+.DropBox{
+    width: 65%;
+    margin: 2% auto;
+}
+.DropBtnBox{
+    margin-top: 1%;
+    text-align: center;
+}
+ 
+ 
+ 
+ /** nav tap*/
+ .list-nav{
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: bold;
+ }
+ .list-nav a{
+    width: 33.3%;
+    text-align: center;
+ }
+ 
+ /**ResMini*/
+ .ResBox{
+    display: flex;
+    border-bottom: 2px solid #dee2e6;
+    background-color:rgba(0,0,0,.05);
+ }
+ .ResBoxList{
+    display: flex;
+ }
+ 
+ .ResBoxTitle{
+    width: 7%;
+ 
+ }
+ 
+ .ResBoxTitle1{
+    width: 33.3%;
+    font-weight: bold;
+    font-size: 1rem;
+    text-align: center
+ }
+ 
+ .ResBoxTitle2{
+    width: 33.3%;
+    font-size: 1rem;
+    text-align: center
+ }
+ 
+ /**SupMini*/
+ .SupBox{
+    display: flex;
+    font-weight: bold;
+ }
+ 
+ .SupBoxTitle{
+    width: 7%;
+ }
+ 
+ .SupBoxTitle1{
+    width: 30%;
+ }
+ 
+ .SupBoxTitle2{
+    width: 20%;
+ }
+
+/**SupModalList*/
+ .list{
+    padding-right:1rem;
+ }
+
+ .progress1{
+    width: 20%;
+    margin-top:1rem;
+    margin-left: 10rem;
+ }
+ 
+ /**AttMini*/
+ .AttBox{
+    display: flex;
+    font-weight: bold;
+ }
+ 
+ .AttBoxTitle{
+    width: 7%;
+ }
+ 
+ .AttBoxTitle1{
+    width: 30%;
+ }
+ 
+ .AttBoxTitle2{
+    width: 20%;
+ }
+ 
+ 
+ /**Trans*/
+.TransBox{
+    width: 88%;
+    margin: auto;
+}
+.TransBox h1 {
+   text-align: center;
+   font-size: 3rem;
+}
+
+.TransBox nav {
+   width: 100%;
+}
+.TransBox nav a{
+   width: 50%;
+}
+ 
+ .vol{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+ }
+ 
+ .TransTitle{
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+ }
+ 
+ /**TransSup*/
+ .TransBox1{
+    display: flex;
+    font-weight: bold;
+ }
+ 
+ .TransBoxTitle{
+    width: 50%;
+ }
+ 
+ .TransBoxButton{
+    margin: 3% 0
+ }
+ 
+ 
+ @media (max-width:1500px) {
+
+ }
+
+ @media (max-width: 1150px){
+
+ }
+
+ @media (max-width: 1024px){
+     /**InfoUpdate*/
+     .InfoUpdateBox_title h1{
+        padding-bottom: 1%;
+    }
+    .myPageBox{
+      width: 90%;
+   }
+ }
+ 
+ @media (min-width:700px) and (max-width:900px){
+ 
+   .myPageBox{
+      width: 90%;
+   }
+ 
+ }
+ 
+ 
+ @media (min-width:300px) and (max-width:500px) {
+ 
+ 
+    /**InfoUpdate*/
+    .InfoUpdateBox_title{
+        margin: 7% auto;
+    }
+    .InfoUpdateBox_title h1{
+        font-size: 2.4rem;
+    }
+    .InfoUpdateBox_title p{
+        font-size: 1.0rem;
+    }
+ 
+    .TransBox{
+        width: 96%;
+    }
+    .TransBox h1 {
+      text-align: center;
+      font-size: 2.3rem;
+   }
+
+    .myPageBox{
+       width: 90%;
+    }
+ }

@@ -1,0 +1,18 @@
+server:
+    port: 9000
+
+spring:
+
+    mvc:
+        view:
+            suffix: .html
+    jpa:
+        show-sql: true
+        database: mysql
+        hibernate:
+            ddl-auto: update
+    datasource:
+        driver-class-name: org.mariadb.jdbc.Driver
+        url: jdbc:mariadb://jobp2p.cjs9ruc4zgrr.ap-northeast-2.rds.amazonaws.com/job_p2p
+        username: SSK
+        password: jobp2pssk

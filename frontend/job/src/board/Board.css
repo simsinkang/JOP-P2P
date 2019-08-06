@@ -1,0 +1,140 @@
+
+.BoardList_Card{
+    border: 1px solid #cbced3;
+ }
+.BoardList_Card:hover{
+
+    border: 2px solid #a0c3e5;    
+}
+.Board_searchBox{
+  margin-top: 5%;
+  width: 88%;
+  text-align: end;
+}
+.b-card-title{
+    white-space: nowrap; text-overflow: ellipsis; overflow: hidden;
+    font-weight: bold;
+}
+.b-card-text{
+white-space: nowrap; text-overflow: ellipsis; overflow: hidden;
+}
+
+
+/*  board section  */
+.Board_listings{
+    width: 80%;
+    margin: auto;
+}
+.Board_listings .properties_list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+}
+.Board_listings .properties_list li:nth-child(4n+0){
+    margin-right: 0;
+}
+.Board_listings ul.properties_list li{
+    display: block;
+    width: 22.90909090909091%;
+    height: auto;
+    position: relative;
+    margin: 2% 1%;
+}
+
+
+@media (max-width:1500px) {
+   
+}
+@media (max-width: 1024px){
+    /**PreView.jsx*/
+     .Board_listings{
+        width: 90%;
+        margin: auto;
+    }
+    .Board_listings .listingsMainTitle
+    {
+        width: 96%;
+        margin: 1% auto;
+    }
+    
+    .Board_listings .listingsMainTitle h1{
+         font-size: 1.5em;
+    }
+    .Board_listings ul.properties_list li{
+        display: block;
+        width: 46.90909090909091%;
+        height: auto;
+        position: relative;
+        float: left;
+        margin: 3% 2%;
+    }
+    .Board_listings .properties_list li:nth-child(2n+0){
+        margin-right: 0;
+    }   
+
+ 
+}   
+
+@media (min-width:700px) and (max-width:900px){
+  
+     .Board_listings{
+        width: 90%;
+        margin: auto;
+    }
+    .Board_listings .listingsMainTitle
+    {
+        width: 96%;
+        margin: 1% auto;
+    }
+
+    .Board_listings .listingsMainTitle h1{
+         font-size: 1.5em;
+    }
+    .Board_listings ul.properties_list li{
+        display: block;
+        width: 46.90909090909091%;
+        height: auto;
+        position: relative;
+        float: left;
+        margin: 3% 2%;
+    }
+    .Board_listings .properties_list li:nth-child(2n+0){
+        margin-right: 0;
+    }    
+}
+
+
+@media (min-width:300px) and (max-width:500px) {
+
+
+    /**PreView.jsx*/
+     .Board_listings{
+        width: 83%;
+        margin: auto;
+    }
+    .Board_listings .listingsMainTitle
+    {
+        width: 96%;
+        margin: 5% auto;
+    }
+
+    .Board_listings .listingsMainTitle h1{
+     font-size: 1.5em;
+    }
+
+    .Board_listings .properties_list{
+
+        padding: 0;
+    }
+    .Board_listings ul.properties_list li{
+        display: block;
+        float: none;
+        width: 96%;
+        height: 100%;
+        position: relative;
+        margin: 8% 2.5%;
+    }    
+
+}

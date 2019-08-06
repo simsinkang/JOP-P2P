@@ -1,0 +1,137 @@
+.bigbox{
+    margin: 6% auto;
+ }
+ .box{
+   width: 25%;
+   margin: auto;
+   font-size: 1.3rem;
+   font-weight: bold;
+ }
+ .box2{
+   text-align: center;
+   width: 18%;
+   margin: auto;
+ }
+ .box h1 {
+   text-align: center;
+ }
+ .JoinBox{
+   margin-Left : 30%;
+   margin-Right : 30%;
+ }
+ .button1{
+   color: #fff;
+   display: block;
+   width: 100%;
+   background-color: #0c151c;
+   padding: .5rem 1rem;
+   font-size: 1.25rem;
+   line-height: 1.5;
+   border-radius: .4rem;
+   margin-bottom: 2%;
+ }
+ .button2{
+   color: #fff;
+   display: block;
+   width: 100%;
+   padding: .5rem 1rem;
+   font-size: 1.25rem;
+   line-height: 1.5;
+   border-radius: .3rem;
+   background-color: #a3a1a1;
+ }
+ .button3{
+   color: #fff;
+   width: 70%;
+   background-color: #0c151c;
+   padding: .5rem 1rem;
+   font-size: 1.25rem;
+   line-height: 1.5;
+   border-radius: .4rem;
+ }
+ .join{
+   color:rgb(189, 186, 186);
+   letter-spacing: 0.4rem;
+ }
+ .k{
+   color: rgb(255, 81, 0);
+ }
+ .grey-text{
+   font-weight: bold;
+ }
+ @media (max-width:375px){
+   .JoinBox{
+       margin-Left : 5%;
+       margin-Right : 5%;
+   }
+ }
+ @media (max-width:425px){
+   .JoinBox{
+       margin-Left : 11%;
+       margin-Right : 11%;
+   }
+ }
+ @media (max-width:800px){
+   .box{
+       width: 60%;
+       margin: auto;
+       margin-top: 10%;
+   }
+   .box2{
+       text-align: center;
+       width: 50%;
+       margin: auto;
+   }
+ }
+ @media (max-width:768px){
+   .JoinBox{
+       margin-Left : 15%;
+       margin-Right : 15%;
+   }
+ }
+ @media (max-width:1024px){
+   .JoinBox{
+       margin-Left : 15%;
+       margin-Right : 15%;
+   }
+ }
+ @media (max-width:500px){
+   .box{
+       width: 80%;
+       margin: auto;
+       margin-top: 10%;
+   }
+   .box2{
+       text-align: center;
+       width: 80%;
+       margin: auto;
+   }
+ }
+ @media (max-width:411px){
+   .box{
+       width: 80%;
+       margin: auto;
+       margin-top: 10%;
+   }
+   .box2{
+       text-align: center;
+       width: 80%;
+       margin: auto;
+   }
+ }
+ @media (max-width:320px){
+   .box{
+       width: 80%;
+       margin: auto;
+       margin-top: 10%;
+   }
+   .box2{
+       text-align: center;
+       width: 80%;
+       margin: auto;
+   }
+   .JoinBox{
+       margin-Left : 8%;
+       margin-Right : 8%;
+   }
+ }

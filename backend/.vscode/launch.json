@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - JobApplication",
+            "request": "launch",
+            "mainClass": "com.p2p.job.JobApplication",
+            "projectName": "job"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DemoApplication",
+            "request": "launch",
+            "mainClass": "com.p2p.job.DemoApplication",
+            "projectName": "job"
+        }
+    ]
+}
